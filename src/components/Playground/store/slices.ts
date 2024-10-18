@@ -1,7 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
+import type { IPlaygroundState } from "./types"
 
 
-export const initialState = {
+export const initialState: IPlaygroundState = {
     currentStep: 0
 }
 
